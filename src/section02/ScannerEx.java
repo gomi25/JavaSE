@@ -32,6 +32,5 @@ public class ScannerEx {
 		System.out.printf("당신의 주소는 %s입니다.\n", address);
 		System.out.printf("당신의 나이는 %d입니다.\n", age);
 		System.out.printf("당신의 체중은 %.2fkg입니다.\n", weight);		
-		
 	}
 }
