@@ -6,7 +6,8 @@ package section06;
  * 
  * null
  * 	참조타입 변수에서 어떤 객체를 참조하지 않음을 나타낸다.
- * 	즉, 비어있는 상태를 나타낸다. 
+ * 	즉, 비어있는 상태를 나타낸다.
+ *  
  */
 public class Array01 {
 	public static void main(String[] args) {
