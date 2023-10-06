@@ -13,7 +13,6 @@ package section07;
  *  3. 스택 영역(Stack Area)
  *  	메서드 호출과 관련된 정보(로컬변수, 매개변수, 메서드 호출 등)
  *  	각 스레드마다 별도의 스택이 생성된다.
- *  
  * 
  */
 public class OOP02 {
