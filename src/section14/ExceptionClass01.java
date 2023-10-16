@@ -38,8 +38,8 @@ public class ExceptionClass01 {
 			
 		} catch(Exception e) {	// Exception 최상위 예외			// 여러 종류의 에러가 있는데 다 Exception을 상속받았기 때문에 Exception 타입인 e에 받아올 수 있다 
 			e.printStackTrace();								// 에러메시지 보이게 하는 방법
-		//	System.out.println("에러메시지: " + e.getMessage());	// 어떤 에러가 났는지 확인할 수 있는 방법
-		//	System.out.println("관리자에게 문의하세요.");				// 에러가 났을 때 출력되는 문구
+			System.out.println("에러메시지: " + e.getMessage());	// 어떤 에러가 났는지 확인할 수 있는 방법
+			System.out.println("관리자에게 문의하세요.");				// 에러가 났을 때 출력되는 문구
 		}
 		
 	}
