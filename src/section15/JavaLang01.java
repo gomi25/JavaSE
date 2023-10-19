@@ -36,7 +36,7 @@ public class JavaLang01 {
 			System.out.println("soccer1 과 soccer2는 다르다.");
 		}
 		
-		System.out.println(System.identityHashCode(soccer1));	// 이 값을 16진수로 바꾸는게 toStrint()
+		System.out.println(System.identityHashCode(soccer1));	// 이 값을 16진수로 바꾸는게 toString()
 		System.out.println(System.identityHashCode(soccer2));	
 		
 		System.out.println(soccer1.hashCode());	// 위에 값이랑 같음
