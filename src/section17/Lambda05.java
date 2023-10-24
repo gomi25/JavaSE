@@ -40,5 +40,10 @@ public class Lambda05 {
 			.filter(new EvenNumberPredicate())
 			.map(new NumberSquareMapper())
 			.forEach(new SystemOutConsumer());
+		
+		numbers.stream()
+			.filter(n -> n%2 == 0)
+			.map(n -> n*n)
+			.forEach(System.out::println);
 	}
 }
