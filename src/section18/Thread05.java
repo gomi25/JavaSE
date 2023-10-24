@@ -7,8 +7,8 @@ public class Thread05 {
 		
 		System.out.println("메인스레드 시작!");
 		
-		Runnable interThred = new InterThread();
-		Thread thread = new Thread(interThred);
+		Runnable interThread = new InterThread();
+		Thread thread = new Thread(interThread);
 		
 		thread.start();
 		
