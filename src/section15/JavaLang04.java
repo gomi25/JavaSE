@@ -2,9 +2,7 @@ package section15;
 /*
  * 문자열을 동적으로 다루기 위한 클래스
  * 	StringBuffer - Thread Safe
- *  StringBuilder - Thread Safe X
- * 
- * 
+ *  StringBuilder - Thread Safe X (synchronized 안됨)
  * 
  */
 public class JavaLang04 {
