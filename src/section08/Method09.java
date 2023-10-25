@@ -3,6 +3,12 @@ package section08;
 public class Method09 {
 	
 	public static void main(String[] args) {
+		
+		MemberVO.printHello();
+		
+		Method09 m09 = new Method09();
+		m09.printNumber();
+		
 		MemberVO memberVO = new MemberVO();
 		memberVO.setId("025");
 		memberVO.setName("피카츄");
@@ -18,7 +24,7 @@ public class Method09 {
 		
 	}
 
-	
-	
-	
+	public void printNumber() {
+		System.out.println("10");
+	}
 }
