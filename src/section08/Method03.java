@@ -15,6 +15,7 @@ public class Method03 {
 		String name = "이상해씨";
 		int hp = 300;
 		
+		no = "002";
 		printPokeMon(no, name, hp);
 		System.out.println("==============");
 		
@@ -38,7 +39,7 @@ public class Method03 {
 		System.out.println("Type : " + type);
 	}
 	
-	 			// 
+	 			
 	public static void printPokeMon(String no, String name, int hp, String type) {
 		System.out.println("No. " + no);
 		System.out.println("Name : " + name);
