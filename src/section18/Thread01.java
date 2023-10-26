@@ -18,7 +18,7 @@ public class Thread01 {
 	public static void main(String[] args) {	//하나의 스레드. 메인스레드
 		System.out.println("메인 스레드 시작!");
 		
-		new MyThread().start(); // run이 아니라 star메서드를 통해서 실행시켜야 병렬로 실행됨
+		new MyThread().start(); // run이 아니라 start메서드를 통해서 실행시켜야 병렬로 실행됨
 								// run으로 하면 병렬이 아니라 코드 순서대로 실행 됨
 		
 		System.out.println("메인 스레드 종료!");
